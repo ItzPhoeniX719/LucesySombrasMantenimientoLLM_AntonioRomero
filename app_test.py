@@ -9,7 +9,7 @@ class TestAppPy(unittest.TestCase):
         Ejecuta app.py con una secuencia de entradas simuladas y captura la salida.
         """
         # Prepara el comando para ejecutar app.py
-        cmd = [sys.executable, 'app.py']
+        cmd = [sys.executable, 'RefactoringAntonioRomero.py']
         # Une las entradas con saltos de línea y agrega un salto final
         input_str = '\n'.join(inputs) + '\n'
         # Ejecuta el proceso
